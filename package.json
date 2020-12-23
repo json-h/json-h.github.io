@@ -1,0 +1,23 @@
+{
+  "name": "json-h.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/json-h/json-h.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/json-h/json-h.github.io/issues"
+  },
+  "homepage": "https://github.com/json-h/json-h.github.io#readme"
+}
