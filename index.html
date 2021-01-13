@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Showcase - Personal Portfolio One Page Bulma Theme</title>
+    <title>Portfolio - Jason Han</title>
     <!-- Bulma Version 0.9.0-->
     <link rel="stylesheet" href="bulma.min.css" />
     <link rel="stylesheet" type="text/css" href="index.css" />
@@ -61,11 +61,6 @@
                 </a>
               </div>
               <div class="navbar-item">
-                <a class="navbar-item" href="#skills">
-                  Skills
-                </a>
-              </div>
-              <div class="navbar-item">
                 <a class="navbar-item" href="#projects">
                   Projects
                 </a>
@@ -92,9 +87,6 @@
                   </li>
                   <li>
                     <a href="#about-me">About Me</a>
-                  </li>
-                  <li>
-                    <a href="#skills">Skills</a>
                   </li>
                   <li>
                     <a href="#projects">Projects</a>
@@ -160,73 +152,16 @@
             <div class="column is-6 right-image " data-aos="fade-left">
               <img
                 class="is-rounded"
-                src="self.jpg"
+                src="media/self.jpg"
                 alt=""
+                style="max-width: 75%; border-radius: 50%;"
               />
             </div>
           </div>
         </div>
       </div>
       <!-- End About Me Content --> 
-      <!-- 
-      <div class="section-dark resume">
-        <div class="container">
-          <div
-            class="columns is-multiline"
-            data-aos="fade-in"
-            data-aos-easing="linear"
-          >
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">
-                View My Resume
-              </h1>
-            </div>
-            <div class="column is-10 has-text-centered is-offset-1">
-              <form action="example.docs">
-                <button class="button">
-                  Download Resume&emsp;<i class="fad fa-download fa-lg"></i>
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-      -->
-      <!-- Begin Skills Content -->
-      <div class="section-light skills" id="skills">
-        <div class="container">
-          <div class="columns is-multiline">
-            <div class="column is-12 about-me">
-              <h1 class="title has-text-centered section-title">Skills</h1>
-            </div>
-            <div
-              class="column is-6"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1>SQL</h1>
-              <progress class="progress is-primary" value="90" max="100">60%</progress>
-              <h1>Python</h1>
-              <progress class="progress is-primary" value="80" max="100">30%</progress>
-              <h1>Java</h1>
-              <progress class="progress is-primary" value="70" max="100">30%</progress>
-              <h1>C++</h1>
-              <progress class="progress is-primary" value="65" max="100">45%</progress>
-            </div>
-            <div
-              class="column is-6"
-              data-aos="fade-in"
-              data-aos-easing="linear"
-            >
-              <h1>Swift</h1>
-              <progress class="progress is-primary" value="60" max="100">60%</progress>
-              <h1>HTML</h1>
-              <progress class="progress is-primary" value="20" max="100">30%</progress>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Skills Content -->
+
       <!-- Begin Work Content -->
       <div class="section-dark projects" id="projects">
         <div class="container">
@@ -238,69 +173,41 @@
             <div class="column is-12">
               <h1 class="title has-text-centered section-title">Projects</h1>
             </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=0');"
-                ></figure>
-              </a>
+            <div class="column is-6">
+              <div class="box has-text-centered">
+                <a href="https://www.kawh.io"><img src="media/kawhio.png"></a>
+                <p style="color:white;">
+                  A fantasy basketball tool which provides a variety of statistics and data,
+                  with ESPN integration. Written using Python, MySQL, CSS, HTML, JS, and Django. Hosted on PythonAnywhere.
+                </p> 
+                <br>
+                <a href="https://github.com/json-h/kawh.io" class="button is-primary"><i class="fab fa-github" style="margin-right: 0.3em;"></i>
+                  Github</a>
+              </div>
             </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=10');"
-                ></figure>
-              </a>
+            <div class="column is-6">
+              <div class="box has-text-centered">
+                <img src="media/nbabot.png">
+                <p style="color:white;"> 
+                Similar to kawh.io, but as a Discord bot. No ESPN integration, users create their own team. Written in Python and MySQL.
+                </p>
+                <br>
+                <br>
+                <a href="https://github.com/json-h/nbafantasybot" class="button is-primary"><i class="fab fa-github" style="margin-right: 0.3em;"></i>
+                  Github</a>
+              </div>
             </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=20');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=30');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=40');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=50');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=60');"
-                ></figure>
-              </a>
-            </div>
-            <div class="column is-3">
-              <a href="#">
-                <figure
-                  class="image is-2by1 work-item"
-                  style="background-image: url('https://picsum.photos/320/180?image=70');"
-                ></figure>
-              </a>
+            <div class="column is-6">
+              <div class="box has-text-centered">
+                <img src="media/jsonh.png">
+                <p style="color:white;"> 
+                My personal website, which you're currently looking at. Written in HTML and CSS. Hosted on Github Pages. 
+                </p>
+                <br>
+                <br>
+                <a href="https://github.com/json-h/json-h.github.io" class="button is-primary"><i class="fab fa-github" style="margin-right: 0.3em;"></i>
+                  Github</a>
+              </div>
             </div>
           </div>
         </div>
@@ -308,18 +215,6 @@
       <!-- End Work Content -->
     </div>
     <!-- End Main Content -->
-
-    <!-- Begin Footer -->
-    <div class="footer">
-      <p>
-        <strong class="white">Bulma</strong> by<a href="http://jgthms.com">Jeremy Thomas</a>
-        Source code is licensed
-        <a href="http://opensource.org/licenses/mit-license.php">MIT</a> Website content is licensed
-        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>
-      </p>
-    </div>
-    <!-- End Footer -->
-
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="index.js"></script>
