@@ -39,7 +39,7 @@ a {
 
 .hero .title {
   font-size: 5rem;
-  color: whitesmoke;
+  color: #50e9ac;
 }
 
 .hero .subtitle {
@@ -255,7 +255,7 @@ body.preloader-site {
 .preloader-wrapper {
   height: 100%;
   width: 100%;
-  background: #1f2c6c;
+  background: #252829;
   position: fixed;
   top: 0;
   left: 0;
